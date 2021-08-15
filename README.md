@@ -37,7 +37,7 @@ You can also specify what will trigger the security alert. Here are some other e
 
 ## Setup
 
-This project uses a USB Camera to stream video. Before running the code, make sure you have connected a USB Camera to your device.
+This project uses registered camera devices but for now, Before running the code, make sure you have default Camera set up on your device or any other external camera.
 
 
 ## Installing Dependencies
@@ -71,6 +71,11 @@ pip install -r requirements.txt
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
+```
+```python3
+from email.mime.image import MIMEImage
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 ```
 
 ## Saving email addresses
