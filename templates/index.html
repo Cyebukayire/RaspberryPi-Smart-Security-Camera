@@ -9,6 +9,7 @@
                 style="max-width: 85%;margin-top: -30px;max-height: 7rem;margin-right: 10px;"></span>
         <span style="font-size: 3rem;display: inline-block;">Camera</span>
     </div>
+
     <hr style="margin-bottom: 50px;" class="row">
     <div class="row">
         <div class="col-md-8" style="margin-bottom: 30px;">
@@ -22,12 +23,12 @@
             <form action="{{ url_for('index') }}" method="POST">
                 <div class="form-row">
 
-                    {#radio - classifer #}
+                    {#checkbox - classifer #}
                     <div class="form-group">
                         <label>Specify what will trigger security alert:</label>
                         {% for classifier, attributes in classifiers.items() %}
-                            <div class="radio">
-                                <label><input type="radio" name="classifier"
+                            <div class="checkbox">
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input" name="classifier"
                                               value="{{ classifier }}"
                                         {% if classifier == config.classifier_name %}
                                               checked
@@ -113,7 +114,7 @@
 
                     {# button - advanced settings #}
                     <button type="button" style="margin: 0px 0px 20px;"
-                            class="btn btn-default btn-warning btn-block" data-toggle="collapse"
+                            class="btn btn-default btn-primary btn-block" data-toggle="collapse"
                             data-target="#form-advanced-collapse" aria-expanded="true">
                         Advanced settings
                     </button>
@@ -139,7 +140,7 @@
 
 
                 </div>
-                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                <button type="submit" class="btn btn-success btn-lg">Save Changes</button>
             </form>
 
         </div>
