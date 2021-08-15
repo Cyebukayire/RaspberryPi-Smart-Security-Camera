@@ -1,4 +1,4 @@
-# Raspberry Pi Smart Security Camera
+# Smart Security Camera System
 Security camera running OpenCV for object and motion detection. The camera will send email with image of any objects it detects. It also runs a server that provides web interface with live stream video.
 
 Informations about:
