@@ -15,19 +15,19 @@ are available under the *Functionality* section.
 
 You can specify receiver's and sender's email address though web interface:
 
-After detecting an object the camera will send an email with image preview.
-
 
 ### Object detection
 
-You can also specify what will trigger the security alert. Here are some examples:
+After detecting an object the camera will send an email with image preview.
+
+
+You can also specify what will trigger the security alert. Here are some other examples:
 
 #### Motion detection
-![MotionDetection](https://raw.githubusercontent.com/MieszkoMakuch/pi-security-camera/master/readme_files/MotionDetection.png)
+
 #### Face detection
-![FaceDetection](https://raw.githubusercontent.com/MieszkoMakuch/pi-security-camera/master/readme_files/FaceDetection.png)
+
 #### Cat face detection
-![CatFaceDetection](https://raw.githubusercontent.com/MieszkoMakuch/pi-security-camera/master/readme_files/CatFaceDetection.png)
 
 **Note that some of the available detectors are experimental and their accuracy leaves a space for a future improvement. Particularly:**
 - Upper body detection
