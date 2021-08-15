@@ -42,7 +42,7 @@ This project uses registered camera devices but for now, Before running the code
 
 ## Installing Dependencies
 
-This project uses openCV to detect objects in the video feed. You can install openCV by using the following [tutorial](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/). In this project Python 2.7 version was used.
+This project uses openCV to detect objects in the video feed. You can install openCV by using the following [tutorial](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/). In this project Python 3.8 version was used.
 
 The installation took about 1-2 hours on Raspberry Pi 3 Model B, but it would be considerably slower on a less powerful board like the Raspberry Pi Zero (it may even take about 8 hours).
 
